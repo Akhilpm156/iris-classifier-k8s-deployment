@@ -33,7 +33,8 @@ This is a simple machine learning project that serves an Iris classifier using *
     ```bash
     kubectl port-forward svc/iris-api-service 8000:80
 
-    Open: http://localhost:8000/docs for the FastAPI Swagger UI.
+    Open: http://0.0.0.0:8000/docs for the FastAPI Swagger UI.
+    
 
 
 ## 📦 Files in This Repo
